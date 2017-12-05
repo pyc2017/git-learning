@@ -27,6 +27,7 @@ void *print(void *arg) {
     }
     return NULL;
 }
+// master edit
 int main() {
     // init
     count = 0;
@@ -48,4 +49,9 @@ int main() {
     // release mutex
     printf("close mutex...\n");
     pthread_mutex_destroy(&mutex);
+    //new branch
+    //new branch
 }
+//new branch edit
+//new branch edit
+//new branch edit
